@@ -2,20 +2,14 @@
 node_modules/
 jspm_packages/
 
-# Build outputs
-dist/
-build/
+# Build cache (NOT dist)
 .cache/
-out/
 .vite/
 
 # Environment variables (CRITICAL FOR SECURITY)
 .env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-*.env
+.env.*
+!.env.example
 
 # Logs
 npm-debug.log*
@@ -40,4 +34,3 @@ coverage/
 
 # Temporary files
 tmp/
-temp/
