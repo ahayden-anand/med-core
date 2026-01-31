@@ -2,7 +2,11 @@
 node_modules/
 jspm_packages/
 
-# Build cache (NOT dist)
+# Build output
+dist/
+build/
+
+# Build cache
 .cache/
 .vite/
 
